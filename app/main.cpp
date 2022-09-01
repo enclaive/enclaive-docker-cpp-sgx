@@ -1,5 +1,12 @@
+#include <fstream>
 #include <iostream>
-int main() {
-    std::cout << "Hello World!";
-    return 0;
+#include <filesystem>
+#include <algorithm>
+
+int main()
+{
+    std::cout << "going to look at your hosts kernel commandline:\n\n";
+    std::ifstream t("/proc/cmdline");
+    std::stringstream buffer;
+    std::cout << t.rdbuf();
 }

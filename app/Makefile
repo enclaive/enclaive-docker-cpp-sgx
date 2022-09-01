@@ -1,2 +1,2 @@
 app: main.cpp
-	$(CXX) $^ -o $@
+	$(CXX) -std=c++20 $^ -o $@
