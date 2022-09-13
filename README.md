@@ -150,7 +150,7 @@ docker build -t enclaive/cpp-sgx:latest 'https://github.com/enclaive/enclaive-do
 
 ## Modify the image
 
-Add your C++ to folder `/app`.
+Add your C++ project to folder `/app`.
 
 <!-- RUN THE IMAGE -->
 ## Run the image
