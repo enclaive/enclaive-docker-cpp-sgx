@@ -1,4 +1,4 @@
-SGX c++ demonstration
+# Cpp-SGX Demonstration: Calling the Host Kernel and Preventing Container Escape
 
 
 ## Building and Running
@@ -7,7 +7,7 @@ SGX c++ demonstration
 docker-compose up
 ```
 
-## observe that cpp-nosgx has access to the host kernel, but within cpp-sgx it does not
+## Observe that cpp-nosgx has access to the host kernel, but within cpp-sgx it does not
 
 ```sh
 cpp-nosgx    | going to look at your hosts kernel commandline:
