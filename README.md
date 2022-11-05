@@ -122,6 +122,11 @@ Install the docker engine
 ```
 Use `docker run hello-world` to check if you can run docker (without sudo).
 
+Install the g++ compiler
+```sh
+sudo apt install build-essential
+```
+
 <!-- GET THIS IMAGE -->
 ## Get this image
 
